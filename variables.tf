@@ -8,3 +8,8 @@ variable "main_vpc_cidr" {
   description = "CIDR block for main VPC"
   type        = string
 }
+
+variable "public_subnet_cidr" {
+  description = "CIDR block for public CIDR"
+  type        = string
+}
